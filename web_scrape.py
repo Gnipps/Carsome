@@ -48,7 +48,7 @@ def web_scrape(default_URL):
             WebDriverWait(driver, 10).until(
                 EC.presence_of_element_located((By.CSS_SELECTOR, '.v-pagination'))
             )
-            time.sleep(5)  # Ensure all JavaScript has loaded
+            time.sleep(1.5)  # Ensure all JavaScript has loaded
         except Exception as e:
             print("Error: ", e)
             driver.quit()
