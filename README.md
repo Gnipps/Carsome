@@ -21,7 +21,6 @@ The output will be saved in the file `car_data.csv`
 
 The image is also available in the [docker hub link](https://hub.docker.com/repository/docker/gnipps/carsome-web-scrape/)
 
-docker image available in tar format `dk.agent.latest.tar`
 
 ## Section C: Date Ingestion pipeline
 ----------------------------------
