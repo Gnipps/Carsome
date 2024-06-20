@@ -1,12 +1,10 @@
 # Carsome Interview Test
----------------------------
 
 ## Section A: SQL
---------------
 The anwers for the SQL questions are in the file `SQL.sql`
 
 ## Section B: Web Scraping
------------------------
+
 The web scraping code is in the file `web_scrape.py`
 dockerfile is in the file `Dockerfile`
 
@@ -23,6 +21,5 @@ The image is also available in the [docker hub link](https://hub.docker.com/repo
 
 
 ## Section C: Date Ingestion pipeline
-----------------------------------
 
 The answer for the Date Ingestion pipeline questions is in the file `Carsome Q3.docx`
