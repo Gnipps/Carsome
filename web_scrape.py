@@ -98,7 +98,9 @@ def web_scrape(default_URL):
 
 
 target_URL = "https://www.carsome.my/buy-car/perodua/myvi"
+print ("Scraping started")
 car_listing = web_scrape(target_URL)
+print ("Scraping completed")
 print (car_listing)
 # Output data to CSV
 
@@ -114,4 +116,4 @@ with open(file_path, mode='w+') as file:
     for car_data in car_listing:
         writer.writerow(car_data)
 
-print("Data has been written to car_data.csv")
+print(f"Data has been written to {file_path}")

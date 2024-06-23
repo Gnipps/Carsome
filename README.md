@@ -9,13 +9,20 @@ The web scraping code is in the file `web_scrape.py`
 dockerfile is in the file `Dockerfile`
 
 To run the code, you can use the following command:
+
 ```
-docker run -it gnipps/carsome-web-scrape
+docker pull gnipps/carsome-web-scrape:latest
 ```
-web_scrape.py will be executed in the docker container and the output will be saved in the file `car_data.csv`
+```
+docker build -t carsome-web-scrape:latest .
+```
+```
+docker run carsome-web-scrape:lastest
+```
+web_scrape.py will be executed in the docker container and the output will be saved as `car_data.csv`
 > Note: python3 web_scrape.py is expected to return error as the code is written to run in the docker container
 
-The output will be saved in the file `car_data.csv`
+The output will be saved as `car_data.csv`
 
 The image is also available in the [docker hub link](https://hub.docker.com/repository/docker/gnipps/carsome-web-scrape/)
 

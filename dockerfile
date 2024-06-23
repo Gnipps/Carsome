@@ -31,4 +31,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Run the script
-CMD ["python", "./web_scrape.py"]
+CMD ["python", "./web_scrape.py;", "sleep", "infinity"]
