@@ -23,7 +23,7 @@ docker run -it carsome-web-scrape:lastest /bin/bash
 web_scrape.py will be executed in the docker container and the output will be saved as `car_data.csv`
 > Note: python3 web_scrape.py is expected to return error as the code is written to run in the docker container
 
-### To geth the car_data.csv
+### To get the car_data.csv
 Get inside the container and navigate to `/usr/src/app`
 The output will be saved as `car_data.csv`
 Download the file through **Docker Desktop**
