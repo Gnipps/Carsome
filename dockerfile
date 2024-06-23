@@ -27,8 +27,8 @@ WORKDIR /usr/src/app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy the current directory contents into the container
+# Copy the current directory contents into the containercd
 COPY . .
 
 # Run the script
-CMD ["python", "./web_scrape.py;", "sleep", "infinity"]
+CMD ["python", "./web_scrape.py", ";", "sleep", "infinity"]
