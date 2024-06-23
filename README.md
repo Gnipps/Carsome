@@ -27,6 +27,6 @@ The output will be saved as `car_data.csv`
 The image is also available in the [docker hub link](https://hub.docker.com/repository/docker/gnipps/carsome-web-scrape/)
 
 
-## Section C: Date Ingestion pipeline
+## Section C: Data Ingestion pipeline
 
-The answer for the Date Ingestion pipeline questions is in the file `Carsome Q3.docx`
+The answer for the Data Ingestion pipeline questions is in the file `Carsome Q3.docx`
