@@ -9,7 +9,6 @@ The web scraping code is in the file `web_scrape.py`
 dockerfile is in the file `Dockerfile`
 
 To run the code, you can use the following command:
-
 ```
 docker pull gnipps/carsome-web-scrape:latest
 ```
